@@ -38,8 +38,9 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-white/65">
-            Premium vehicle solutions and real estate investment services —
-            built on trust, professionalism, and excellence.
+            Premium vehicle solutions (including import &amp; export) and real
+            estate investment services — built on trust, professionalism, and
+            excellence.
           </p>
           <div className="mt-6 flex gap-5 text-sm text-white/70">
             <a

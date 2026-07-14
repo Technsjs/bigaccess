@@ -30,7 +30,8 @@ export function PageHero({
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/88 to-navy/55" />
+        <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/92 to-navy-deep/70" />
+        <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/80 via-transparent to-navy-deep/40" />
         <div className="noise absolute inset-0 opacity-30" />
       </div>
       <div className="relative z-10 mx-auto flex min-h-[58vh] max-w-7xl flex-col justify-end px-5 pb-14 pt-28 sm:min-h-[62vh] sm:px-8 sm:pb-16 lg:px-10">

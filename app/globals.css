@@ -72,9 +72,14 @@ body {
 
 .hero-sheen {
   background:
-    radial-gradient(ellipse 80% 60% at 70% 40%, rgba(201, 162, 39, 0.18), transparent 55%),
-    radial-gradient(ellipse 50% 40% at 15% 80%, rgba(7, 26, 51, 0.55), transparent 50%),
-    linear-gradient(160deg, rgba(4, 16, 31, 0.82) 0%, rgba(7, 26, 51, 0.55) 45%, rgba(4, 16, 31, 0.75) 100%);
+    radial-gradient(ellipse 70% 55% at 75% 35%, rgba(201, 162, 39, 0.12), transparent 50%),
+    linear-gradient(
+      160deg,
+      rgba(4, 16, 31, 0.88) 0%,
+      rgba(4, 16, 31, 0.72) 40%,
+      rgba(4, 16, 31, 0.82) 100%
+    ),
+    linear-gradient(to top, rgba(4, 16, 31, 0.75) 0%, transparent 45%);
 }
 
 .noise {

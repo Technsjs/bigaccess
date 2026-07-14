@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Premium Vehicle Services",
   description:
-    "Buy, sell, and source Mercedes-Benz, Toyota Camry, Hilux and more with BIG ACCESS PRIME LTD. Vehicle consultation and procurement across Nigeria.",
+    "Buy, sell, source, and facilitate import & export of Mercedes-Benz, Toyota Camry, Hilux and more with BIG ACCESS PRIME LTD across Nigeria.",
   alternates: { canonical: "/vehicles" },
 };
 
@@ -19,11 +19,11 @@ const offerings = [
   },
   {
     title: "Sourcing & procurement",
-    copy: "Need a Benz, Camry, Hilux, or another model? We source through trusted channels and present options that fit your brief.",
+    copy: "Need a Benz, Camry, Hilux, or another model? We source through trusted channels — local and cross-border — and present options that fit your brief.",
   },
   {
-    title: "Consultation",
-    copy: "From budget planning to condition checks and paperwork guidance — we help you decide with confidence before you commit.",
+    title: "Import & export support",
+    copy: "We help facilitate vehicle import and export processes so partners can move inventory with clearer next steps and reliable coordination.",
   },
 ];
 
@@ -40,7 +40,7 @@ export default function VehiclesPage() {
       <PageHero
         eyebrow="Premium Vehicle Services"
         title="Benz, Camry, Hilux — and more you can trust"
-        lead="Buying, selling, sourcing, and procurement for the vehicles Nigerians actually drive — delivered with professionalism and clarity."
+        lead="Buying, selling, sourcing, and import/export facilitation for the vehicles Nigerians actually drive — delivered with professionalism and clarity."
         image={images.vehiclesHero.src}
         imageAlt={images.vehiclesHero.alt}
       />

@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     "property management Ikirun",
     "land and property sales",
     "vehicle sourcing",
+    "vehicle import export Nigeria",
   ],
   authors: [{ name: site.name }],
   openGraph: {

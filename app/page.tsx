@@ -138,8 +138,9 @@ export default function Home() {
               className="animate-fade-up mt-5 max-w-lg text-base leading-relaxed text-white/70 sm:text-lg"
               style={{ animationDelay: "0.28s" }}
             >
-              Strategic partnerships in premium vehicles, real estate investment,
-              and property services across Nigeria.
+              Strategic partnerships in premium vehicles, import &amp; export
+              sourcing, real estate investment, and property services across
+              Nigeria.
             </p>
 
             <div
@@ -194,8 +195,9 @@ export default function Home() {
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-slate">
               {site.name} is dedicated to exceptional services in the purchase,
-              sale, sourcing, and management of premium vehicles, as well as
-              real estate and property investment solutions.
+              sale, sourcing, and management of premium vehicles — including
+              import and export facilitation — as well as real estate and
+              property investment solutions across Nigeria.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-slate">
               We believe every transaction is an opportunity to build lasting
@@ -260,6 +262,10 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                  Import &amp; export vehicle facilitation
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
                   Vehicle consultation and procurement
                 </li>
               </ul>
@@ -287,15 +293,15 @@ export default function Home() {
               <ul className="mt-6 space-y-3 text-white/75">
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                  Residential property investment
+                  Land, bungalow, duplex &amp; lodge deals
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                  Land and property sales
+                  Flats, villas &amp; residential investment
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                  Property management & commercial contracts
+                  Property management &amp; commercial contracts
                 </li>
               </ul>
               <Link

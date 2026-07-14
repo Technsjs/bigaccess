@@ -1,25 +1,62 @@
 /** Central image URLs — swap anytime without hunting through pages. */
 export const images = {
-  /** Hero: brand atmosphere (vehicles + property), not one exotic car */
+  /** Hero: modern Lagos — Civic Towers, Lekki (glass high-rise, not aged stock) */
   hero: {
-    src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2400&q=80",
-    alt: "Modern city skyline representing opportunity in vehicles and real estate",
+    src: "https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?auto=format&fit=crop&w=2400&q=80",
+    alt: "Modern Civic Towers in Lekki, Lagos — premium Nigeria skyline",
   },
   aboutProperty: {
-    src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
-    alt: "Modern residence representing property investment",
+    src: "https://images.unsplash.com/photo-1749058388308-744fdc8991ed?auto=format&fit=crop&w=1600&q=80",
+    alt: "Victoria Island, Lagos — contemporary waterfront skyline",
   },
   partnership: {
-    src: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=2200&q=80",
-    alt: "Architectural interior reflecting premium standards",
+    src: "https://images.unsplash.com/photo-1749058388308-744fdc8991ed?auto=format&fit=crop&w=2200&q=80",
+    alt: "Victoria Island, Lagos waterfront skyline",
   },
   realEstateHero: {
-    src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2200&q=80",
-    alt: "Contemporary home exterior for real estate services",
+    src: "https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?auto=format&fit=crop&w=2200&q=80",
+    alt: "Modern high-rise towers in Lekki, Lagos, Nigeria",
   },
   commercialSkyline: {
-    src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
-    alt: "Commercial skyline for property opportunities",
+    src: "https://images.unsplash.com/photo-1749058388308-744fdc8991ed?auto=format&fit=crop&w=1600&q=80",
+    alt: "Contemporary Lagos waterfront skyline for property opportunities",
+  },
+  /** Property types we help clients buy, sell, or manage */
+  land: {
+    src: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1400&q=80",
+    alt: "Open land ready for development or investment",
+    label: "Land",
+    note: "Plots for residential, commercial, or investment use",
+  },
+  bungalow: {
+    src: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1400&q=80",
+    alt: "Modern bungalow home exterior",
+    label: "Bungalow",
+    note: "Single-level homes for family living or rental",
+  },
+  duplex: {
+    src: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=80",
+    alt: "Contemporary duplex-style residence",
+    label: "Duplex",
+    note: "Two-level homes popular for owners and investors",
+  },
+  lodge: {
+    src: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1400&q=80",
+    alt: "Lodge and hospitality-style property",
+    label: "Lodge",
+    note: "Guest houses, lodges, and short-stay opportunities",
+  },
+  villa: {
+    src: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=80",
+    alt: "Premium villa residence",
+    label: "Villa / Estate home",
+    note: "Higher-end homes for premium buyers",
+  },
+  apartment: {
+    src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1400&q=80",
+    alt: "Residential apartment-style property",
+    label: "Flat / Apartment",
+    note: "Blocks and units for living or rental income",
   },
   /** Popular Nigeria-market vehicles */
   mercedes: {
@@ -50,4 +87,13 @@ export const nigeriaFleet = [
   images.mercedes,
   images.camry,
   images.hilux,
+] as const;
+
+export const propertyTypes = [
+  images.land,
+  images.bungalow,
+  images.duplex,
+  images.lodge,
+  images.villa,
+  images.apartment,
 ] as const;

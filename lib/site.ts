@@ -24,7 +24,7 @@ export const site = {
     tiktokHandle: "@big.access.prime",
   },
   description:
-    "Premium vehicle solutions, real estate investment, land & property sales, and property management services in Nigeria.",
+    "Premium vehicle solutions including import & export sourcing, real estate investment, land & property sales, and property management services in Nigeria.",
 } as const;
 
 export function whatsappUrl(text?: string) {
