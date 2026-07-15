@@ -53,6 +53,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  other: {
+    "color-scheme": "light only",
+  },
 };
 
 export default function RootLayout({
@@ -61,8 +64,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} h-full`}>
-      <body className="min-h-full antialiased">{children}</body>
+    <html
+      lang="en"
+      className={`${display.variable} ${body.variable} h-full light`}
+      style={{ colorScheme: "light" }}
+    >
+      <body className="min-h-full bg-ivory text-ink antialiased">{children}</body>
     </html>
   );
 }
